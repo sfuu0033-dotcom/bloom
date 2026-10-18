@@ -1,0 +1,73 @@
+# --- Claude Code / AI tooling ---
+CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.md
+**/CLAUDE.local.md
+.claude/
+.mcp.json
+.claude-flow/
+claude-flow.config.json
+.swarm/
+.hive-mind/
+.ruflo/
+ruflo.config.json
+coordination/
+memory/claude-flow-data.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# --- C / C++ / Rust build output ---
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.a
+*.lib
+target/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# --- secrets / local config ---
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# --- editors and IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- generated results ---
+# raw benchmark dumps can get big; commit summaries/tables instead
+bench/raw/
+*.log
+*.prof
